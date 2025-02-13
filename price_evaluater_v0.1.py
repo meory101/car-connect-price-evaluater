@@ -5,7 +5,6 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from xgboost import XGBRegressor
 from sklearn.metrics import mean_absolute_error, r2_score
 
-# Sample dataset (Replace with actual data)
 data = pd.DataFrame({
     'brand': ['Toyota', 'BMW', 'Honda', 'Ford', 'Toyota'],
     'model': ['Corolla', 'X5', 'Civic', 'Focus', 'Camry'],
